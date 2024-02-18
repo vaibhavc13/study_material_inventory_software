@@ -1,6 +1,8 @@
 import React, { useRef } from "react";
 import { Container } from "reactstrap";
 import "./header.css";
+import logo from "../../assests/images/logo.png";
+import { faBold } from "@fortawesome/free-solid-svg-icons";
 
 const navLinks = [
   {
@@ -8,7 +10,7 @@ const navLinks = [
     url: "#",
   },
   {
-    display: "About",
+    display: "Materials",
     url: "#",
   },
 
@@ -17,13 +19,14 @@ const navLinks = [
     url: "#",
   },
   {
-    display: "Pages",
+    display: " Queries",
     url: "#",
   },
   {
     display: "Blog",
     url: "#",
   },
+ 
 ];
 
 const Header = () => {
@@ -36,9 +39,9 @@ const Header = () => {
       <Container>
         <div className="navigation d-flex align-items-center justify-content-between">
           <div className="logo">
-            <h2 className=" d-flex align-items-center gap-1">
-             
-              <i class="ri-pantone-line"></i> LearnLoom
+            <h2 style={{fontWeight:"bold"}}className=" d-flex align-items-center gap-1">
+             <img src={logo} className="logoimg" alt="logo" style={{ width:'15%', height:'5%'}}/>LearnLoom
+              
             </h2>
           </div>
 

@@ -16,9 +16,9 @@ const HeroSection = () => {
               <button className="btn">Search</button>
             </div>
               <h2 className="mb-4 hero__title"><br />
-  Access Study Material <br /> Guidance for All Your<br /> Queries and Projects
+  Access Study Material ,<br /> Guidance for All Your<br /> Queries and Projects
               </h2>
-              
+              <p className="para">Stuck With Engineering? Launch your engineering project with FREE materials, pro tips, & internship opportunities! LearnLoon : Your guide to building something amazing. </p>
             </div>
             
           </Col>

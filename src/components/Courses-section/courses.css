@@ -13,7 +13,11 @@
   font-size: 0.9rem;
   color: #17bf9e;
 }
-
+@media screen and (max-width: 600px) {
+.h2_cls{
+  font-size: medium;
+}
+}
 .lesson,
 .students,
 .rating {

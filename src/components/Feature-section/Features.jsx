@@ -4,20 +4,20 @@ import "./features.css";
 
 const FeatureData = [
   {
-    title: "Quick Learning",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum molestias, aperiam doloribus aut sapiente praesentium eos iste dicta amet itaque!",
+    title: "Quick Acess to Materials",
+    desc: "Get free Engineering materails of sagar central university in few clicks ! ",
     icon: "ri-draft-line",
   },
 
   {
-    title: "All Time Support",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum molestias, aperiam doloribus aut sapiente praesentium eos iste dicta amet itaque!",
+    title: "Project and Querry Support",
+    desc: "Get Projects and Querry support within seconds you can post your errors in our querry portal ! ",
     icon: "ri-discuss-line",
   },
 
   {
-    title: "Certification",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum molestias, aperiam doloribus aut sapiente praesentium eos iste dicta amet itaque!",
+    title: "Internship & Certification",
+    desc: "Get intership based on real world projects and acess to our courses !",
     icon: "ri-contacts-book-line",
   },
 ];

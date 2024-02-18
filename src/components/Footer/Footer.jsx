@@ -1,7 +1,9 @@
 import React from "react";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
-
+import logo from "../../assests/images/logo.png";
 import "./footer.css";
+import { useState } from "react";
+
 
 const footerQuickLinks = [
   {
@@ -46,13 +48,39 @@ const footerInfoLinks = [
 ];
 
 const Footer = () => {
+
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: ''
+  });
+
+  const handleChange = e => {
+    const { name, value } = e.target;
+    setFormData(prevState => ({
+      ...prevState,
+      [name]: value
+    }));
+  };
+
+  const handleSubmit = e => {
+    e.preventDefault();
+    // Here you can add logic to handle form submission, such as sending the data to a server
+    console.log(formData);
+    // Reset form fields after submission
+    setFormData({
+      name: '',
+      email: '',
+      message: ''
+    });
+  };
   return (
     <footer className="footer">
       <Container>
         <Row>
           <Col lg="3" md="6" className="mb-4">
             <h2 className=" d-flex align-items-center gap-1">
-              <i class="ri-pantone-line"></i> Learners.
+            <img src={logo} className="logoimg" alt="logo" style={{ width:'15%', height:'5%'}}/>LearnLoom
             </h2>
 
             <div className="follows">
@@ -87,7 +115,7 @@ const Footer = () => {
             </div>
           </Col>
 
-          <Col lg="3" md="6" className="mb-4">
+          {/*<Col lg="3" md="6" className="mb-4">
             <h6 className="fw-bold">Explore</h6>
             <ListGroup className="link__list">
               {footerQuickLinks.map((item, index) => (
@@ -109,13 +137,54 @@ const Footer = () => {
                 </ListGroupItem>
               ))}
             </ListGroup>
-          </Col>
+          </Col>*/}
+           <Col lg="5" md="6" className="mb-4">
+         <form onSubmit={handleSubmit} className="contact-form">
+      <div className="form-group">
+        <label htmlFor="name"></label>
+        <input
+        placeholder="Name"
+          type="text"
+          id="name"
+          name="name"
+          value={formData.name}
+          onChange={handleChange}
+          required
+        />
+      </div>
+      <div className="form-group">
+        <label htmlFor="email"></label>
+        <input
+        placeholder="Email"
+          type="email"
+          id="email"
+          name="email"
+          value={formData.email}
+          onChange={handleChange}
+          required
+        />
+      </div>
+      <div className="form-group">
+        <label htmlFor="message"></label>
 
+        <textarea
+        placeholder="Message"
+          id="message"
+          name="message"
+          value={formData.message}
+          onChange={handleChange}
+          rows="4"
+          required
+        ></textarea>
+      </div >
+      <button type="submit" className="submit-btn">Send</button>
+    </form>
+  
+    </Col>
           <Col lg="3" md="6">
             <h6 className="fw-bold">Get in Touch</h6>
 
-            <p>Address: Sylhet, Bangladesh</p>
-            <p> Phone: +88 0123456789 </p>
+            <p>Address: LearnLoom , Sagar, Madhya Pradesh 470003</p>
             <p>Email: example@gmail.com</p>
           </Col>
         </Row>

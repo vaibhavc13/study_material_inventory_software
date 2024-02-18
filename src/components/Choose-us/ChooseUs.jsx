@@ -14,15 +14,13 @@ const ChooseUs = () => {
         <Row>
           <Col lg="6" md="6">
             <div className="choose__content">
-              <h2>Why Choose Us</h2>
+              <h2>About Us</h2>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Incidunt mollitia nostrum harum eos praesentium odit a sed quod
-                aut fugit. Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Reprehenderit omnis, culpa eligendi inventore perspiciatis
-                minus. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dolores cupiditate facilis provident quidem accusamus impedit
-                tenetur laboriosam debitis nisi eius!
+              At LearnLoon, we are passionate about empowering students and professionals in the field of
+               engineering. Founded with the vision of providing comprehensive support and resources, LearnLoon
+                is your go-to platform for all your academic and career needs.  We strive to provide students 
+with access to high-quality study materials, expert guidance, internship opportunities, and certification 
+programs to enhance their learning experience and prepare them for a successful career in engineering.
               </p>
             </div>
           </Col>

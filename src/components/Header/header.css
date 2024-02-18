@@ -55,7 +55,8 @@
     z-index: 99;
     display: none;
   }
-
+  
+  
   .nav__list {
     position: absolute;
     background: #fff;

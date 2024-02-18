@@ -6,6 +6,7 @@ import courseImg3 from "../../assests/images/ui-ux.png";
 import "./courses.css";
 import CourseCard from "./CourseCard";
 
+
 const coursesData = [
   {
     id: "01",
@@ -43,12 +44,8 @@ const Courses = () => {
           <Col lg="12" className="mb-5">
             <div className="course__top d-flex justify-content-between align-items-center">
               <div className="course__top__left w-50">
-                <h2>Our Popular Courses</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-                  consequatur libero quod voluptatibus ullam quia quas, vitae
-                  voluptatem recusandae reprehenderit!
-                </p>
+                <h2 className="h2_cls">Our Free Courses</h2>
+                
               </div>
 
               <div className="w-50 text-end">
