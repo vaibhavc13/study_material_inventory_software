@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/study_material_inventory_software/static/css/main.c3b1a5fb.css",
+    "main.css": "/study_material_inventory_software/static/css/main.468b52c2.css",
     "main.js": "/study_material_inventory_software/static/js/main.30add630.js",
     "reactPlayerYouTube.js": "/study_material_inventory_software/static/js/reactPlayerYouTube.4cc61be7.chunk.js",
     "reactPlayerSoundCloud.js": "/study_material_inventory_software/static/js/reactPlayerSoundCloud.adae68a9.chunk.js",
@@ -36,7 +36,7 @@
     "static/media/slick.ttf": "/study_material_inventory_software/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/study_material_inventory_software/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/study_material_inventory_software/index.html",
-    "main.c3b1a5fb.css.map": "/study_material_inventory_software/static/css/main.c3b1a5fb.css.map",
+    "main.468b52c2.css.map": "/study_material_inventory_software/static/css/main.468b52c2.css.map",
     "main.30add630.js.map": "/study_material_inventory_software/static/js/main.30add630.js.map",
     "reactPlayerYouTube.4cc61be7.chunk.js.map": "/study_material_inventory_software/static/js/reactPlayerYouTube.4cc61be7.chunk.js.map",
     "reactPlayerSoundCloud.adae68a9.chunk.js.map": "/study_material_inventory_software/static/js/reactPlayerSoundCloud.adae68a9.chunk.js.map",
@@ -53,7 +53,7 @@
     "reactPlayerPreview.fa79c709.chunk.js.map": "/study_material_inventory_software/static/js/reactPlayerPreview.fa79c709.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3b1a5fb.css",
+    "static/css/main.468b52c2.css",
     "static/js/main.30add630.js"
   ]
 }
