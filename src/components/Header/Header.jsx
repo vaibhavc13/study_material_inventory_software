@@ -7,24 +7,24 @@ import { faBold } from "@fortawesome/free-solid-svg-icons";
 const navLinks = [
   {
     display: "Home",
-    url: "#",
+    url: "/study_material_inventory_software",
   },
   {
     display: "Materials",
-    url: "#",
+    url: "/study_material_inventory_software/materials",
   },
 
   {
     display: "Courses",
-    url: "#",
+    url: "/study_material_inventory_software/Course",
   },
   {
     display: " Queries",
-    url: "#",
+    url: "/study_material_inventory_software/Queries",
   },
   {
     display: "Blog",
-    url: "#",
+    url: "/study_material_inventory_software/blogs",
   },
  
 ];

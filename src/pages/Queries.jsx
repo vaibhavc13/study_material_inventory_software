@@ -19,13 +19,6 @@ const Queries = () => {
   return (
     <Fragment>
       <Header />
-      <HeroSection />
-   
-      <FreeCourse />
-      
-      <ChooseUs />
-      <Features />
-      <Courses />
       
       <Footer />
     </Fragment>
